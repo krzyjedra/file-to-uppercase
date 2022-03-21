@@ -2,9 +2,8 @@ import scala.io.Source
 
 object fileUppercase extends App {
 
-  val file = "C:\\projects\\uppercase\\example.txt"
-  val n = 3
 
+  val n = 3
   var words = Source.fromFile("C:\\Users\\k.jedra\\Desktop\\testFile.txt").getLines.mkString.split("\\W+")
   var newWords = List.empty[String]
 
